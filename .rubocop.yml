@@ -1,0 +1,9 @@
+Metrics/LineLength:
+  Max: 100
+
+Style/AlignParameters:
+  Enabled: true
+  EnforcedStyle: 'with_fixed_indentation'
+
+Style/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
