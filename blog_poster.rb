@@ -16,7 +16,7 @@ end
 repo = Octokit::Repository.from_url(ENV['BLOG_REPOSITORY'])
 puts "Checking #{repo.slug} for anything that needs to be posted today."
 
-date_string = DateTime.now.strftime('%Y-%m-%d')
+date_string = DateTime.now.strftime(ENV['DATE_FORMAT'])
 expected_branch_name = ENV['BRANCH_NAME_TEMPLATE'].gsub('%', date_string)
 
 branches = Octokit.branches(repo)
