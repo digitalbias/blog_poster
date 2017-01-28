@@ -9,11 +9,9 @@
 # Change these to match your app:
 APP_NAME=blog_poster
 RBENV_RUBY_VERSION=2.4.0
-# USER=<USER_WITH_RBENV>
-# APP_PATH=<APPLICATION_PATH>
-USER="david.c.mitchell"
+USER=<USER_WITH_RBENV>
+APP_PATH=<APPLICATION_PATH>
 USER_DIR="/Users/$USER"
-APP_PATH="/Users/$USER/dev/blog_poster"
 
 # env
 PATH="$PATH:$APP_PATH"
