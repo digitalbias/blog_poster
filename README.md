@@ -16,6 +16,8 @@ That's too much for me to swallow just to get pages to show up when they should.
 
 So, this script was born. It can be scheduled using cron once a day. It connects to github using today's date, checks to see if there is a matching branch and merges the branch into master if it's there.
 
+Finally, the default name you should have for the branches should follow this format: `Scheduled(2019-01-30)`
+
 ## Requirements
 
 This script requires ruby 2.4.0 to be installed along with with bundler gem.
