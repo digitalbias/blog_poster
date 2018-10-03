@@ -8,8 +8,7 @@ require 'date'
 
 Dotenv.load
 Octokit.configure do |c|
-  c.login = ENV['GITHUB_USERNAME']
-  c.password = ENV['GITHUB_PASSWORD']
+  c.access_token = ENV['ACCESS_TOKEN']
 end
 
 # Fetch the current user
